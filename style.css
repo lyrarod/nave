@@ -5,6 +5,11 @@
   font-family: sans-serif;
 }
 
+body {
+  display: grid;
+  place-items: center;
+}
+
 canvas {
   display: flex;
   height: 100%;
@@ -64,12 +69,6 @@ button {
 }
 
 @media (min-width: 700px) {
-  body {
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-  }
-
   canvas {
     box-shadow: 6px 6px 8px #0007;
   }
